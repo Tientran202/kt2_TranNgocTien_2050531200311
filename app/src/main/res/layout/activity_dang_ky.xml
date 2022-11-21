@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/cay"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:hint="Nhập tên của bạn"
+                android:textColor="@color/white"
+                android:id="@+id/tenDk"
+                android:textColorHint="@color/black">
+
+            </EditText>
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:hint="Nhập tuổi"
+                android:id="@+id/tuoiDangKy"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:textColor="@color/white"
+                android:hint="Nhập tên dăng nhập"
+                android:id="@+id/tenDangNhapDK"
+                android:textColorHint="@color/black">
+
+            </EditText>
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:hint="Nhập mật khẩu"
+                android:password="true"
+                android:id="@+id/matKhauDK"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black">
+
+            </EditText>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:password="true"
+                android:id="@+id/nhapLaiMatKhauDK"
+                android:hint="Nhập lại mật khẩu"
+                android:textColor="@color/white"
+                android:textColorHint="@color/black">
+
+            </EditText>
+
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="470dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Đã có tài khoản"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:id="@+id/daCoTaiKhoannDk"
+        >
+    </TextView>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="160dp"
+            android:id="@+id/btDangKyDK"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="@drawable/ndbuttondanhnhap"
+            android:text="Đăng ký">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
